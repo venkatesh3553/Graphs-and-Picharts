@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.nav {
+  display: flex;
+}
+.logo {
+  height: 40px;
+}
+.logo-head {
+  font-size: 14px;
+  font-family: Roboto;
+  color: #2cc6c6;
+  margin-left: 8px;
+}
+.heading {
+  color: white;
+  font-size: 18px;
+}
+.fail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fail-img {
+  height: 100px;
+}
+fail-head {
+  font-size: 18px;
+}
+
+.loading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
